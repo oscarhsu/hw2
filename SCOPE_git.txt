@@ -1,0 +1,14 @@
+ssh 140.114.91.176
+ssh-keygen
+
+cat id_rsa.pub
+(複製到GIT SSH KEY)
+git config --global user.email "scope@olife.org"
+git config --global user.name "Oscar Li Jen Hsu"
+git clone ssh://git@scopelab.cs.nthu.edu.tw:9419/SCOPE_Member/SCOPE_Group_Meeting.git
+
+git pull
+(上傳檔案)
+git add -A
+git commit
+git push
